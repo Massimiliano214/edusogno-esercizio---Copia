@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("../images/my_image.png");
+    background-size: cover;
+}
+
+.head_space {
+    padding: 7px 30px 10px;
+    height: 100px;
+    border-radius: 10px;
+    border-bottom: 1px lightskyblue solid;
+    box-shadow: 0 10px 6px -6px lightskyblue;
+    background-color: white;
+}
+
+.logo {
+    height: 90px;
+}
+
+.option {
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(106, 132, 168);
+}
+
+.main_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.info_user {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 40%;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 50px;
+    background-color: white;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.text_style {
+    width: 100%;
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+
+.my_input {
+    border: 0;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+.my_flex {
+    display: flex;
+}
+
+.my_eye {
+    color: lightskyblue;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.my_login{
+    width: 100%;
+}
+
+.login_bt {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0 5px;
+    font-size: larger;
+    font-weight: bolder;
+    color: darkred;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.register_path {
+    text-align: center;
+}
+
+.reset_pass {
+    padding-top: 20px;
+}
+
+.my_link {
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.my_link:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+/* personal page */
+
+.subtitle {
+    color: gray;
+    font-weight: lighter;
+}
+
+.info_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.info_events {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: calc((100% / 3) - 150px);
+    text-align: left;
+    border-radius: 10px;
+    border: 1px lightskyblue solid;
+    padding: 30px;
+    background-color: white;
+    margin: 50px 50px;
+}
+
+#green_bt {
+    background-color: darkslategray;
+    color: white;
+}
+
+.edit_btn {
+    background-color: rgb(155, 155, 45);
+    color: black;
+}
+
+.delete_btn {
+    background-color: rgb(148, 19, 19);
+    color: white;
+}
+
+.my_a {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
