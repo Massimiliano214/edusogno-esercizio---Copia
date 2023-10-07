@@ -17,12 +17,16 @@
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'fanizzamassimiliano@gmail.com';
-            $mail->Password = 'ejnr umnv eaxn iybp';
+            
+            //change the email with your google mail
+            $mail->Username = '******@gmail.com';
+            //change password with you app Password from google
+            $mail->Password = '**** **** **** ****';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-        
-            $mail->setFrom('fanizzamassimiliano@gmail.com');
+            
+            //change the email with your google mail
+            $mail->setFrom('******@gmail.com');
         
             $mail->addAddress($userEmail);
         
